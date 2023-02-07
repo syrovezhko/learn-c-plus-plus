@@ -1,6 +1,10 @@
 #include <iostream>
+#include <string>
 
 int main() {
-  std::cout << "Hello, world!\n";
-  return 0;
+    std::string name;
+    std::cout << "What's your  name?\n";
+    std::cin >> name;
+    std::cout << "Hello, " << name << "!\n";
+    return 0;
 }
