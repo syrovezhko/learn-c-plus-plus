@@ -1,7 +1,7 @@
 #include <iostream>
+
 int main() {
-    double a;
-    std::cin >> a;
-    std::cout << a / 2.54;
-    return 0;
+    unsigned long int n;
+    std::cin >> n;
+    std::cout << n * (n + 1) / 2 << "\n";
 }
