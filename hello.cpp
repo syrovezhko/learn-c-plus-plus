@@ -1,5 +1,7 @@
 #include <iostream>
-main() {
-    
+int main() {
+    double a;
+    std::cin >> a;
+    std::cout << a / 2.54;
     return 0;
 }
